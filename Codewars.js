@@ -30,7 +30,7 @@ function century(year) {
   };
 }
 
-//№
+//№5
 function even_or_odd(number) {
   if (number % 2 == 0){
     return ("Even")
@@ -38,3 +38,10 @@ function even_or_odd(number) {
     return ("Odd")
   }
 }
+
+//№6
+function past(h, m, s){
+  return(h*3600*1000 + m*60*1000 + s*1000)
+}
+
+//№7
