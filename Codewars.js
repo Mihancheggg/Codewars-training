@@ -44,4 +44,16 @@ function past(h, m, s){
   return(h*3600*1000 + m*60*1000 + s*1000)
 }
 
-//№7
+//№7 (7 kyu)
+function solution(str, ending){
+  var b = ending.length;
+  if (b == 0) {
+    return (true)
+  } else if (str.slice(-b) == ending.slice(-b)){
+    return (true)
+  } else{
+    return (false)
+  };
+}
+
+//№8 (7 kyu)
