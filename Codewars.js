@@ -17,3 +17,16 @@ function hero(bullets, dragons){
   }
 
 //№3
+function greet(name){
+  return ("Hello, " + name + " how are you doing today?")
+}
+
+//№4
+function century(year) {
+  if (year % 100 == 0){
+    return (year / 100);
+  } else{
+    return (Math.floor(year / 100) + 1)
+  };
+  
+}
