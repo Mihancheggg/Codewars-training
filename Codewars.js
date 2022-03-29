@@ -57,3 +57,13 @@ function solution(str, ending){
 }
 
 //№8 (7 kyu)
+function noOdds( values ){
+  var x = [];
+  for (i = 0; i <= values.length; i++){
+    if (values[i] % 2 == 0){
+      x.push(values[i])
+    } else{
+      continue
+    };
+  } return (x);
+} 
