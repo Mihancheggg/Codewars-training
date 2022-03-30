@@ -99,3 +99,8 @@ function factorial(n){
 }
 
 //№12 (7 kyu)
+function repeater(string, n){
+  return (string.repeat(n));
+}
+
+//№13 (7 kyu)
