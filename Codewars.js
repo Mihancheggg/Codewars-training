@@ -87,3 +87,15 @@ function predictAge(age1,age2,age3,age4,age5,age6,age7,age8){
 }
 
 //№11 (7 kyu)
+function factorial(n){
+  var fact = 1
+  if(n > 1){
+    for(var i = 1; i <= n; i++){
+      fact *= i
+    };
+    return fact;
+  }
+  return fact;
+}
+
+//№12 (7 kyu)
