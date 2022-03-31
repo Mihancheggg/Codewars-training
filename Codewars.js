@@ -104,3 +104,15 @@ function repeater(string, n){
 }
 
 //№13 (7 kyu)
+function getEvenNumbers(numbersArray){
+  let evenNumbers = numbersArray.filter(function(elem){
+     if (elem%2 == 0){
+       return (true);
+     } else{
+       return (false);
+     }                        
+  });
+  return evenNumbers;
+}
+
+//№14 (7 kyu)
