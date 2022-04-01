@@ -138,3 +138,17 @@ function angle(n) {
 }
 
 //№16 (7 kyu)
+function factorial(n){
+  let fact = 1
+  if (n < 0 || n > 12){
+    alert("RangeError")
+  } else if (n == 0){
+    return (1)
+  } else{
+    for (let i = 1; i <= n; i++){
+      fact *= i;
+    } return fact;
+  }
+}
+
+//№17 (7 kyu)
