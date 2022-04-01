@@ -132,3 +132,9 @@ function foldTo(distance) {
     };
 
 //№15 (7 kyu)
+function angle(n) {
+  let sum = (n-2)*180;
+  return sum;
+}
+
+//№16 (7 kyu)
