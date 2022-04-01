@@ -116,3 +116,19 @@ function getEvenNumbers(numbersArray){
 }
 
 //№14 (7 kyu)
+function foldTo(distance) {
+  let thickness = 0.0001;
+  let times = 0;
+  let sum;
+  if (distance < 0){
+    return (null);
+  } else if (distance < thickness) {
+     return 0;
+   }else do {
+      times = times + 1;
+      sum = thickness * (2**times);
+      } while (sum < distance);
+      return (times);
+    };
+
+//№15 (7 kyu)
