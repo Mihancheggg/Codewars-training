@@ -152,3 +152,9 @@ function factorial(n){
 }
 
 //№17 (7 kyu)
+function friend(friends){
+  let myFriends = friends.filter(item => item.length == 4);  
+ return (myFriends);
+}
+
+//№18 (7 kyu)
