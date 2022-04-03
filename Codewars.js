@@ -158,3 +158,8 @@ function friend(friends){
 }
 
 //№18 (7 kyu)
+var greet = function(name) {
+  return ("Hello " + name[0].toUpperCase() + name.substring(1).toLowerCase() + "!");
+};
+
+//№19 (7 kyu)
