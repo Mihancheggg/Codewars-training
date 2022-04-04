@@ -182,3 +182,13 @@ function sumCubes(n){
 }
 
 //№21 (7 kyu)
+var isSquare = function(n){
+  if (n < 0){
+    return false;
+  } else if (Number.isInteger(Math.sqrt(n))){
+    return true;
+  }
+  return false; // fix me
+}
+
+//№22 (7 kyu)
