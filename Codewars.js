@@ -172,3 +172,13 @@ function positiveSum(arr) {
 }
 
 //№20 (7 kyu)
+function sumCubes(n){
+  var sum = 0;
+  for (;n>=1;){
+    sum += n**3;
+    n -=1;
+  };
+  return sum;
+}
+
+//№21 (7 kyu)
