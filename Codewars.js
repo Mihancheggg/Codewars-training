@@ -202,3 +202,8 @@ return years;
 }
 
 //№23 (7 kyu)
+const closestMultiple10 = num => {
+  return Math.round(num/10)*10;
+};
+
+//№24 (7 kyu)
