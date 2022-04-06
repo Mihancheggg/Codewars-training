@@ -207,3 +207,12 @@ const closestMultiple10 = num => {
 };
 
 //№24 (7 kyu)
+function findNextSquare(sq) {
+  let number = Math.sqrt(sq);
+  if (number % 1 == 0){
+      return (number + 1) ** 2;
+      }
+  return -1;
+}
+
+//№25 (7 kyu)
