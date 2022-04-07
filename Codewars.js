@@ -216,3 +216,13 @@ function findNextSquare(sq) {
 }
 
 //№25 (7 kyu)
+function calculateYears(principal, interest, tax, desired) {
+  let years = 0;
+  while (principal < desired){
+    principal = principal + (principal*interest*(1-tax));
+    years++
+  };
+return years;
+}
+
+//№26 (7 kyu)
