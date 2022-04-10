@@ -234,4 +234,13 @@ var number = function(busStops){
   return sum;
 }
 
-//№27 (7 kyu)
+//№27 (6 kyu)
+function solution(number){
+  let sum = 0;
+  for (var i = 1; i < number; i++){
+      i % 3 == 0 || i % 5 == 0 ? sum += i : sum += 0;
+    }
+  return sum;
+}
+
+//№28 (6 kyu)
